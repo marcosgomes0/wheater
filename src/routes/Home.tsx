@@ -46,7 +46,6 @@ function onChange(e: React.SyntheticEvent<EventTarget>){
   }
 }
 
-console.log(tempo)
   return (
     <div className="home">
       <form className="form" onSubmit={handleSubmit}>

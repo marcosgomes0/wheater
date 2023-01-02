@@ -1,6 +1,7 @@
 $cor1: #82ceff;
 $bg:  #f8f8f8;
 
+
 .home {
   max-width: 800px;
   margin: 0 auto;
@@ -85,4 +86,18 @@ $bg:  #f8f8f8;
   align-items: center;
   gap: 10px;
   margin-bottom: .5rem;
+}
+
+@media (max-width: 600px){
+  .home{
+    margin-top: 50px;
+  }
+  .conteudo{
+    grid-template-columns: 1fr;
+    >div{
+      border: none;
+      border-bottom: 3px solid #7bc4f5;
+      padding-bottom: 1rem;
+    }
+  }
 }
