@@ -1,7 +1,7 @@
 import React, { FormEventHandler } from "react";
 
 function Home() {
-  const url: string = "http://api.weatherapi.com/v1/current.json";
+  const url: string = "https://api.weatherapi.com/v1/current.json";
   const key: string = "?key=504401a30cca4d78a59232940230101";
 
   interface Local {
